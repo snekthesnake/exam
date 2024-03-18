@@ -1,0 +1,27 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	<div class="header">
+		<center>
+		<hr/>
+		<a class="header_text" href="registration.html" >Регистрация</a>
+		<p class="header_text"></p>
+		<a class="header_text" href="authorization.html">Авторизация</a>
+		<p class="header_text"></p>
+		<a class="header_text" href="main.php" >Главная</a>
+		</center>
+		<hr/>
+	</div>
+	<center>
+		<form method="POST" action="scripts/registration.php">
+			<input class='text_input' type="text" maxlength="50" name="Login" placeholder="Введите ваш Mail"><br>
+			<input class='text_input' type="text" maxlength="50" name="Password1" placeholder="Введите желаемый пароль"><br>
+			<input class='text_input' type="text" maxlength="50" name="Password2" placeholder="Повторите пароль"><br>
+			<button class='text_input' onclick>Зарегистрироваться</button>
+		</form>
+	</center>
+</body>
+</html>

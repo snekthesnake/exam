@@ -1,0 +1,5 @@
+.header{width:100vw;height:auto;background-color:transparent;white-space:nowrap;}
+.header_text{font-size:3vh;margin-right:15vh;margin-left:1vh;text-decoration:none;color:black;display: inline;}
+.text{font-size:3vh;margin-right:15vh;margin-left:1vh;text-decoration:none;color:black;}
+.text_input{font-size:3vh;margin-right:15vh;margin-left:1vh;text-decoration:none;color:black;width:25%;margin-top:1%}
+body{background-color: #FFFFFF}
